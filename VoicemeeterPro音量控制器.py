@@ -22,7 +22,7 @@ config_path = os.path.join(config_dir, "vol.txt")
 PROCESS_NAME = "voicemeeterpro.exe"  # 进程名称
 OFFSET_A1 = 0x9CA68                  # A1增益偏移地址
 OFFSET_A2 = 0x9CAC8                  # A2增益偏移地址
-ICON_PATH = r"C:\Users\lisiy\Desktop\编程\Python\VoicemeeterPro音量控制器\icon.ico"
+ICON_PATH = r"icon.ico"
 
 # 全局变量
 pm = None # Pymem对象
@@ -411,4 +411,5 @@ finally:# 退出
 #     finally:
 #         # 清理
 #         stop_background_connection()
+
 #         print("程序退出")
